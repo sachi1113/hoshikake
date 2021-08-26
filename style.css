@@ -436,7 +436,7 @@ nav.globalMenuSp ul li a {
   text-align: left;
 }
 .b-logo{
-  width:150px;
+  width:180px;
   margin-bottom: 30px;
 }
 .b-logo img{
@@ -781,6 +781,7 @@ nav.globalMenuSp ul li a{
   padding-top: 80px;
 }
 .b-logo{
+  width:180px;
   margin: 0 auto;
 }
 .btm-name{
