@@ -85,8 +85,6 @@ nav.globalMenuSp ul li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -636,7 +634,6 @@ nav.globalMenuSp.active {
 
 .top-img{
   display: block;
-  top:50%;
 }
 .fv-ttl{
   width:90%;
@@ -701,6 +698,7 @@ nav.globalMenuSp ul li a{
 }
 .top-img{
   width:90%;
+  top:30%;
 }
 .topilu{
   width:100%;
