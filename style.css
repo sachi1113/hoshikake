@@ -149,7 +149,7 @@ nav.globalMenuSp ul li a {
 .cr{
   color: #fff;
   position: absolute;
-  bottom:50%;
+  top:50%;
   left:40px;
   transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -166,7 +166,7 @@ nav.globalMenuSp ul li a {
 .place{
   color: #fff;
   position: absolute;
-  bottom:50%;
+  top:50%;
   right:40px;
   transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -719,6 +719,7 @@ nav.globalMenuSp ul li a{
 }
 .place{
   right:0;
+  top:0;
   bottom:30px;
   writing-mode:horizontal-tb;
   transform:none;
