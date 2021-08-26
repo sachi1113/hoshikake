@@ -152,7 +152,6 @@ nav.globalMenuSp ul li a {
   top:50%;
   left:40px;
   transform: translate(0,-50%);
-  width: 80px;
   writing-mode: vertical-rl;
   font-size: 14px;
   text-align: center;
@@ -166,7 +165,6 @@ nav.globalMenuSp ul li a {
   top:50%;
   right:40px;
   transform: translate(0,-50%);
-  width: 80px;
   writing-mode: vertical-rl;
   font-size: 14px;
   text-align: center;
