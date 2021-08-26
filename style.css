@@ -712,8 +712,7 @@ nav.globalMenuSp ul li a{
 }
 .place{
   right:0;
-  top:none;
-  bottom:30px;
+  top:;
   writing-mode:horizontal-tb;
   transform:none;
   width:100%;
