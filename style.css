@@ -636,11 +636,11 @@ nav.globalMenuSp.active {
 
 .top-img{
   display: block;
-  top:40%;
+  top:50%;
 }
 .fv-ttl{
   width:90%;
-  bottom:10%;
+  bottom:5%;
 }
 .logo{
   width:200px;
@@ -712,7 +712,7 @@ nav.globalMenuSp ul li a{
 }
 .place{
   right:0;
-  top:0;
+  top:none;
   bottom:30px;
   writing-mode:horizontal-tb;
   transform:none;
