@@ -405,6 +405,7 @@ nav.globalMenuSp ul li a {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
+  margin: 80px auto;
 }
 .map iframe{
   position: absolute;
