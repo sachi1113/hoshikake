@@ -727,6 +727,9 @@ nav.globalMenuSp ul li a{
 .att{
   padding: 40px 0;
 }
+.att p{
+  font-size:14px;
+  }
 .att::after{
   width:100%;
 }
