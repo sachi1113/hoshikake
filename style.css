@@ -151,9 +151,7 @@ nav.globalMenuSp ul li a {
   position: absolute;
   top:50%;
   left:40px;
-  transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
+  transform: translate(0,-50%);
   width: 80px;
   writing-mode: vertical-rl;
   font-size: 14px;
