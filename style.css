@@ -51,7 +51,9 @@ header{
 .hover-Uline:hover:before {
   transform: scale(1);
 }
-
+nav.globalMenuSp{
+  tekt-align:right;
+}
 nav.globalMenuSp ul {
   display: flex;
   justify-content: center;
