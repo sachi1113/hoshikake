@@ -9,6 +9,7 @@ a{
 }
 body{
   background: #28292b;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 header{
   position: fixed;
