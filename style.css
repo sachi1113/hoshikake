@@ -156,7 +156,6 @@ nav.globalMenuSp ul li a {
   writing-mode: vertical-rl;
   font-size: 14px;
   text-align: center;
-  transform: rotate(180deg);
   letter-spacing: 3px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
