@@ -725,7 +725,12 @@ nav.globalMenuSp ul li a{
   width:100%;
 }
 
-
+.ff-ctt-cp{
+  margin-top:0;
+  }
+  .fphoto{
+  margin-top:0;
+  }
 .fv-ttl{
   bottom:10%;
   display: block;
@@ -770,7 +775,7 @@ nav.globalMenuSp ul li a{
   width:300px;
 }
 .map{
-  margin: 80px auto;
+  margin: 80px auto 40px;
   height: 300px;
 }
 .btm{
