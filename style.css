@@ -179,25 +179,16 @@ nav.globalMenuSp ul li a {
 
 .att{
   color:#fff;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 3px;
   line-height: 2.3;
   letter-spacing: 3px;
-  position: relative;
-  padding: 80px ;
+  display: inline-block;
+  padding: 80px 160px;
+  border: 1px solid #fff;
+  border-radius: 30px;
 }
-.att::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width:60%;
-  margin: 0 auto;
-  background-color: #fff;
-  opacity: 0.2;
-}
+
 
 
 .ff{
@@ -297,6 +288,22 @@ nav.globalMenuSp ul li a {
 }
 .backStr-g{
   color : rgba(108, 189, 44, 0.2);
+}
+
+.cr-link{
+  margin: 80px 0;
+}
+.cr-link a{
+  color:#fff;
+  font-size: 14px;
+  padding: 20px 40px;
+  border: 1px solid #fff;
+  letter-spacing: 3px;
+  border-radius: 30px;
+}
+.cr-link a:hover{
+  opacity: 0.6;
+  transition: all 0.4s;
 }
 
 
@@ -427,7 +434,7 @@ nav.globalMenuSp ul li a {
   text-align: left;
 }
 .b-logo{
-  width:180px;
+  width:200px;
   margin-bottom: 30px;
 }
 .b-logo img{
@@ -457,9 +464,10 @@ nav.globalMenuSp ul li a {
   padding: 20px 0;
   border: 1px solid;
   letter-spacing: 2px;
+  border-radius: 30px;
 }
 .contact-link-a a:hover{
-  border-radius: 30px;
+  opacity: 0.7;
   transition: all 0.4s;
 }
 
@@ -589,17 +597,17 @@ nav.globalMenuSp {
   top  : 0;
   right : 0;
   color: #000;
-  background: #f5f5f5;
+  background: rgba(255,255,355,0.8);
   text-align: center;
   transform: translateX(100%);
   transition: all 0.6s;
   width: 50%;
+  height: 100vh;
 }
 
 nav.globalMenuSp ul {
   margin: 0 auto;
   padding: 0;
-  height: 100vh;
   display: block;
 }
 
@@ -609,11 +617,12 @@ nav.globalMenuSp ul li {
   width: 100%;
   padding: 20px;
   margin-top: 20px;
+  margin-right: 0;
 }
 
 nav.globalMenuSp ul li a {
   display: block;
-  padding: 15px;
+  padding: 15px 0;
   text-decoration :none;
   font-size: 23px;
   letter-spacing: 2px;
@@ -686,7 +695,7 @@ nav.globalMenuSp ul li:first-child{
       margin-top: 40px;
 }
   nav.globalMenuSp ul li{
-    padding:15px;
+    padding:15px 0;
   }
 nav.globalMenuSp ul li a{
   font-size: 13px;
@@ -716,13 +725,17 @@ nav.globalMenuSp ul li a{
   width:100%;
 }
 .att{
-  padding: 40px 0;
+  padding: 40px 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 .att p{
   font-size:14px;
   }
-.att::after{
-  width:100%;
+
+.cr-link a{
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .ff-ctt-cp{
@@ -780,7 +793,7 @@ nav.globalMenuSp ul li a{
 }
 .btm{
   display: block;
-  padding-top: 80px;
+  padding-bottom: 0;
 }
 .b-logo{
   width:180px;
