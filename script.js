@@ -26,14 +26,12 @@ $(function(){
         });
     });
 });
-    
-    $(function() {
-	setTimeout(function(){
-		$('.start p').fadeIn(1600);
-	},500); //0.5秒後にロゴをフェードイン!
-	setTimeout(function(){
-		$('.start').fadeOut(500);
-	},2500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+
+	$(function(){
+    $(window).on('load',function(){
+  $("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+  $("#splash_logo").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
+});
 });
 
 $(function() {
